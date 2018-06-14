@@ -76,29 +76,44 @@ console.log('JS is working');
 
 // 1. //
 
-const thom = ["Thom", 1000, "Christchurch"]
-const karolin = ["Karolin", 16, "New York"]
-const kristyn = ["Kristyn", 5, "Pittsburgh"]
-const matt = ["Matt H", 186, "Philadelphia"]
+// const thom = ["Thom", 1000, "Christchurch"]
+// const karolin = ["Karolin", 16, "New York"]
+// const kristyn = ["Kristyn", 5, "Pittsburgh"]
+// const matt = ["Matt H", 186, "Philadelphia"]
 
-// 1. // 
-thom[0] = 'Gameboy';
-console.log(thom); 
+// // 1. // 
+// thom[0] = 'Gameboy';
+// console.log(thom); 
 
-// 2. // 
-karolin[1] = 17;
-console.log(karolin);
+// // 2. // 
+// karolin[1] = 17;
+// console.log(karolin);
 
-// 3. // 
-matt[2] = 'Gotham City'; 
-console.log(matt);
+// // 3. // 
+// matt[2] = 'Gotham City'; 
+// console.log(matt);
 
-// 4. // 
-kristyn[2] = 'Brooklyn';
-console.log(kristyn);
+// // 4. // 
+// kristyn[2] = 'Brooklyn';
+// console.log(kristyn);
 
 
+///// Ninja Turtles /////////
 
+const ninjaTurtles = ['donatello', 'leonardo', 'raphael', 'michaeanglo'];
+    for (let i = 0; i < ninjaTurtles.length; i++){
+
+        console.log(ninjaTurtles[i].toUpperCase());
+
+
+    }
+
+
+// const a = String.prototype.toUpperCase.call({
+//   toString: function toString() {
+//     return 'abcdef';
+//   }
+// });
 
 
 
