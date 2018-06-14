@@ -47,30 +47,55 @@ console.log('JS is working');
 
 // FizzBuzz // Section 4 // 
 
-for (let i = 0; i <= 100; i++){
+// for (let i = 0; i <= 100; i++){
 
-    console.log(i);
+//     console.log(i);
     
-  if (i % 3 === 0){
+//   if (i % 3 === 0){
 
-    console.log('Fizz');
+//     console.log('Fizz');
 
-    }
+//     }
 
-  if (i % 5 === 0){
+//   if (i % 5 === 0){
 
-    console.log('Buzz');
+//     console.log('Buzz');
 
-  }
+//   }
 
-  if (i % 3 && 5 === 0){
+//   if (i % 3 && 5 === 0){
 
-    console.log('FizzBuzz');
+//     console.log('FizzBuzz');
 
-  }
+//   }
 
-}
+// }
 
+
+//// Getting to know you //// 
+
+// 1. //
+
+const thom = ["Thom", 1000, "Christchurch"]
+const karolin = ["Karolin", 16, "New York"]
+const kristyn = ["Kristyn", 5, "Pittsburgh"]
+const matt = ["Matt H", 186, "Philadelphia"]
+
+// 1. // 
+thom[0] = 'Gameboy';
+console.log(thom); 
+
+// 2. // 
+karolin[1] = 17;
+console.log(karolin);
+
+// 3. // 
+matt[2] = 'Gotham City'; 
+console.log(matt);
+
+// 4. // 
+kristyn[2] = 'Brooklyn';
+console.log(kristyn);
 
 
 
