@@ -29,7 +29,7 @@ console.log('JS is working');
       
     // if (i % 2 === 0){
 
-    //     console.log(Math.random('human... why are you taking pictures of me?'));
+    //     console.log(Math.random());
         
     //   }
 
@@ -100,21 +100,35 @@ console.log('JS is working');
 
 ///// Ninja Turtles /////////
 
-const ninjaTurtles = ['donatello', 'leonardo', 'raphael', 'michaeanglo'];
-    for (let i = 0; i < ninjaTurtles.length; i++){
+// const ninjaTurtles = ['donatello', 'leonardo', 'raphael', 'michaeanglo'];
+//     for (let i = 0; i < ninjaTurtles.length; i++){
 
-        console.log(ninjaTurtles[i].toUpperCase());
-
-
-    }
+//         console.log(ninjaTurtles[i].toUpperCase());
 
 
-// const a = String.prototype.toUpperCase.call({
-//   toString: function toString() {
-//     return 'abcdef';
-//   }
-// });
+//     }
 
+
+/////////// Return of the closets ///////////////
+
+
+const kristynsCloset = [
+  "left shoe",
+  "cowboy boots",
+  "right sock",
+  "GA hoodie",
+  "green pants",
+  "yellow knit hat",
+  "marshmallow peeps"
+];
+
+  for (let i = 0; i <= 0; i++){
+
+    kristynsCloset.shift();
+    console.log(kristynsCloset);
+  // var kristynsShoe = 'left shoe';
+
+}
 
 
 
