@@ -100,13 +100,13 @@ console.log('JS is working');
 
 ///// Ninja Turtles /////////
 
-const ninjaTurtles = ['donatello', 'leonardo', 'raphael', 'michaeanglo'];
-    for (let i = 0; i < ninjaTurtles.length; i++){
+// const ninjaTurtles = ['donatello', 'leonardo', 'raphael', 'michaeanglo'];
+//     for (let i = 0; i < ninjaTurtles.length; i++){
 
-        console.log(ninjaTurtles[i].toUpperCase());
+//         console.log(ninjaTurtles[i].toUpperCase());
 
 
-    }
+//     }
 
 
 /////////// Return of the closets ///////////////
@@ -215,16 +215,52 @@ const ninjaTurtles = ['donatello', 'leonardo', 'raphael', 'michaeanglo'];
 // }
 
 
-// arr = [1, 2, 3, 4];
+// Dirty Laundry // 
+    const kristynsCloset = [
+      "left shoe",
+      "cowboy boots",
+      "right sock",
+      "GA hoodie",
+      "green pants",
+      "yellow knit hat",
+      "marshmallow peeps"
+  ];
 
-// function pairwise(arr, func){
-//     for(var i=0; i < arr.length - 1; i++){
-//         func(arr[i], arr[i + 1])
-//     }
-// }
+  for (let i = 0; i <= kristynsCloset.length; i++){
 
-// pairwise(arr, function(current, next){
-//     console.log(current, next)
-// })
+      console.log(`("Washing now")${kristynsCloset[i]}`);
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
