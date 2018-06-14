@@ -100,49 +100,131 @@ console.log('JS is working');
 
 ///// Ninja Turtles /////////
 
-// const ninjaTurtles = ['donatello', 'leonardo', 'raphael', 'michaeanglo'];
-//     for (let i = 0; i < ninjaTurtles.length; i++){
+const ninjaTurtles = ['donatello', 'leonardo', 'raphael', 'michaeanglo'];
+    for (let i = 0; i < ninjaTurtles.length; i++){
 
-//         console.log(ninjaTurtles[i].toUpperCase());
+        console.log(ninjaTurtles[i].toUpperCase());
 
 
-//     }
+    }
 
 
 /////////// Return of the closets ///////////////
 
 
-const kristynsCloset = [
-  "left shoe",
-  "cowboy boots",
-  "right sock",
-  "GA hoodie",
-  "green pants",
-  "yellow knit hat",
-  "marshmallow peeps"
-];
+// const kristynsCloset = [
+//   "left shoe",
+//   "cowboy boots",
+//   "right sock",
+//   "GA hoodie",
+//   "green pants",
+//   "yellow knit hat",
+//   "marshmallow peeps"
+// ];
 
-  for (let i = 0; i <= 0; i++){
+//   for (let i = 0; i <= 0; i++){
 
-    kristynsCloset.shift();
-    console.log(kristynsCloset);
-  // var kristynsShoe = 'left shoe';
+//     kristynsCloset.shift();
+//     console.log(kristynsCloset);
+//   // var kristynsShoe = 'left shoe';
 
-}
+// }
+
+// kristyns first outfit // 
+// const kristynsCloset = [
+//   "left shoe",
+//   "cowboy boots",
+//   "right sock",
+//   "GA hoodie",
+//   "green pants",
+//   "yellow knit hat",
+//   "marshmallow peeps"
+// ];
+
+//     for ( let i =0; i <= kristynsCloset.length; i += 2){
+
+//         console.log(`${kristynsCloset[i]}`)
+
+//     }
 
 
 
+// kristyns second outfit // 
+// const kristynsCloset = [
+//   "left shoe",
+//   "cowboy boots",
+//   "right sock",
+//   "GA hoodie",
+//   "green pants",
+//   "yellow knit hat",
+//   "marshmallow peeps"
+// ];
+
+//     for ( let i = 0; i <= kristynsCloset.length; i += 3){
+
+//         console.log(`${kristynsCloset[i]}`)
+
+//     }
+
+
+// kristyns third outfit // 
+// const kristynsCloset = [
+//   "left shoe",
+//   "cowboy boots",
+//   "right sock",
+//   "GA hoodie",
+//   "green pants",
+//   "yellow knit hat",
+//   "marshmallow peeps"
+// ];
+
+//     for ( let i =1; i <= kristynsCloset.length; i += 2){
+
+//         console.log(`${kristynsCloset[i]}`)
+
+//     }
 
 
 
+// const thomsCloset = [
+//   [
+//     // These are Thom's shirts
+//     "grey button-up",
+//     "dark grey button-up",
+//     "light blue button-up",
+//     "blue button-up",
+//   ],[
+//     // These are Thom's pants
+//     "grey jeans",
+//     "jeans",
+//     "PJs"
+//   ],[
+//     // Thom's accessories
+//     "wool mittens",
+//     "wool scarf",
+//     "raybans"
+//   ]
+// ];
+//     function pairwise(thomsCloset, func,){
+//         for (let i = 0; i < thomsCloset.length - 1; i++){
+//             func(thomsCloset[i], thomsCloset[i + 1])
+//   }
+//     pairwise(thomsCloset, function(current, next){
+//         console.log(current, next)
+//   })
+// }
 
 
+// arr = [1, 2, 3, 4];
 
+// function pairwise(arr, func){
+//     for(var i=0; i < arr.length - 1; i++){
+//         func(arr[i], arr[i + 1])
+//     }
+// }
 
-
-
-
-
-
+// pairwise(arr, function(current, next){
+//     console.log(current, next)
+// })
 
 
