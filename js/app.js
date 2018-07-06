@@ -131,106 +131,117 @@ console.log('JS is working');
 // }
 
 // kristyns first outfit // 
-// const kristynsCloset = [
-//   "left shoe",
-//   "cowboy boots",
-//   "right sock",
-//   "GA hoodie",
-//   "green pants",
-//   "yellow knit hat",
-//   "marshmallow peeps"
-// ];
+let kristynsCloset = [
+  "left shoe",
+  "cowboy boots",
+  "right sock",
+  "GA hoodie",
+  "green pants",
+  "yellow knit hat",
+  "marshmallow peeps"
+];
 
-//     for ( let i =0; i <= kristynsCloset.length; i += 2){
+    for ( let i =0; i <= kristynsCloset.length; i += 2){
 
-//         console.log(`${kristynsCloset[i]}`)
+        console.log(`${kristynsCloset[i]}`)
 
-//     }
+    }
 
 
 
 // kristyns second outfit // 
-// const kristynsCloset = [
-//   "left shoe",
-//   "cowboy boots",
-//   "right sock",
-//   "GA hoodie",
-//   "green pants",
-//   "yellow knit hat",
-//   "marshmallow peeps"
-// ];
+let kristynsCloset = [
+  "left shoe",
+  "cowboy boots",
+  "right sock",
+  "GA hoodie",
+  "green pants",
+  "yellow knit hat",
+  "marshmallow peeps"
+];
+  for ( let i = 0; i <= kristynsCloset.length; i += 3){
+    console.log(`${kristynsCloset[i]}`)
 
-//     for ( let i = 0; i <= kristynsCloset.length; i += 3){
-
-//         console.log(`${kristynsCloset[i]}`)
-
-//     }
+    }
 
 
 // kristyns third outfit // 
-// const kristynsCloset = [
-//   "left shoe",
-//   "cowboy boots",
-//   "right sock",
-//   "GA hoodie",
-//   "green pants",
-//   "yellow knit hat",
-//   "marshmallow peeps"
-// ];
+let kristynsCloset = [
+  "left shoe",
+  "cowboy boots",
+  "right sock",
+  "GA hoodie",
+  "green pants",
+  "yellow knit hat",
+  "marshmallow peeps"
+];
+  for ( let i =1; i <= kristynsCloset.length; i += 2){
+    console.log(`${kristynsCloset[i]}`)
 
-//     for ( let i =1; i <= kristynsCloset.length; i += 2){
-
-//         console.log(`${kristynsCloset[i]}`)
-
-//     }
+    }
 
 
 
-// const thomsCloset = [
-//   [
-//     // These are Thom's shirts
-//     "grey button-up",
-//     "dark grey button-up",
-//     "light blue button-up",
-//     "blue button-up",
-//   ],[
-//     // These are Thom's pants
-//     "grey jeans",
-//     "jeans",
-//     "PJs"
-//   ],[
-//     // Thom's accessories
-//     "wool mittens",
-//     "wool scarf",
-//     "raybans"
-//   ]
-// ];
-//     function pairwise(thomsCloset, func,){
-//         for (let i = 0; i < thomsCloset.length - 1; i++){
-//             func(thomsCloset[i], thomsCloset[i + 1])
-//   }
-//     pairwise(thomsCloset, function(current, next){
-//         console.log(current, next)
-//   })
-// }
+let thomsCloset = [
+  [
+    // These are Thom's shirts
+    "grey button-up",
+    "dark grey button-up",
+    "light blue button-up",
+    "blue button-up",
+  ],[
+    // These are Thom's pants
+    "grey jeans",
+    "jeans",
+    "PJs"
+  ],[
+    // Thom's accessories
+    "wool mittens",
+    "wool scarf",
+    "raybans"
+  ]
+];
+    function pairwise(thomsCloset, func,){
+        for (let i = 0; i < thomsCloset.length - 1; i++){
+            func(thomsCloset[i], thomsCloset[i + 1])
+  }
+    pairwise(thomsCloset, function(current, next){
+        console.log(current, next)
+  })
+}
 
 
 // Dirty Laundry // 
-    const kristynsCloset = [
-      "left shoe",
-      "cowboy boots",
-      "right sock",
-      "GA hoodie",
-      "green pants",
-      "yellow knit hat",
-      "marshmallow peeps"
-  ];
+let kristynsCloset = [
+  "left shoe",
+  "cowboy boots",
+  "right sock",
+  "GA hoodie",
+  "green pants",
+  "yellow knit hat",
+  "marshmallow peeps"
+];
 
   for (let i = 0; i <= kristynsCloset.length; i++){
-
-      console.log(`("Washing now")${kristynsCloset[i]}`);
-
+    console.log(`("Washing now")${kristynsCloset[i]}`);
   }
+
+  // Multiples of 3 and 5 // 
+
+function multiples (number) {
+  let sum = 0; 
+  for(let i = 0; i < number; i++){
+    if( i % 3 === 0 || i % 5 === 0 || i % 6 === 0 || i % 9 === 0){
+      sum += 1; 
+    }
+  }
+  return sum; 
+};
+
+console.log(multiples(9));
+console.log(multiples(6));
+console.log(multiples(5));
+console.log(multiples(3)); 
 
 
 
